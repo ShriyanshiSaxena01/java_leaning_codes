@@ -114,6 +114,40 @@
 
 
 
+// import java.util.Scanner;
+// class conditional {
+    
+
+//     public static void main(String[] args) {
+//         Scanner k=new Scanner(System.in);
+//         System.out.println("Enter number 1 :");
+//         int n1=k.nextInt();
+       
+    
+
+//         if (n1>=18)
+//         {
+//             System.out.println("Person eligible");
+//         }
+//         else if(n1<=18)
+//         {
+//             System.out.println("Person not eligible");
+//         }
+//         else
+//         {
+//             System.out.println("Wrong input");
+//         }
+        
+//     }
+// }
+
+
+
+
+
+
+
+
 import java.util.Scanner;
 class conditional {
     
@@ -121,18 +155,35 @@ class conditional {
     public static void main(String[] args) {
         Scanner k=new Scanner(System.in);
         System.out.println("Enter number 1 :");
-        int n1=k.nextInt();
+        char n1=k.next().charAt(0);
        
     
 
-        if (n1>=18)
+        if (n1>='a')
         {
-            System.out.println("Person eligible");
+            if(n1<='z')
+            {
+                System.out.println("lower case");
+            }
+        }
+        else if (n1>='A')
+        {
+            if(n1<='Z')
+            {
+                System.out.println("upper case");
+            }
         }
         else
         {
-            System.out.println("Person not eligible");
+            System.out.println("other");
+           
         }
+       
         
     }
 }
+
+
+
+
+
