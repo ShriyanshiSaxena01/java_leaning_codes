@@ -179,7 +179,7 @@
 
 // import java.util.Scanner;
 
-//class assigmentjava1 {
+// class assigmentjava1 {
 
 //       public static void main(String[] args) {
      
@@ -221,17 +221,17 @@
 //     public static void main(String[] args) {
 //         Scanner sc = new Scanner(System.in);
 
-//         // Input seconds
+       
 //         System.out.print("Input seconds: ");
 //         int totalSeconds = sc.nextInt();
 
-//         // Conversion
+        
 //         int hours = totalSeconds / 3600;
 //         int remainingSeconds = totalSeconds % 3600;
 //         int minutes = remainingSeconds / 60;
 //         int seconds = remainingSeconds % 60;
 
-//         // Output
+       
 //         System.out.println("There are:");
 //         System.out.println("H:M:S - " + hours + ":" + minutes + ":" + seconds);
 //     }
@@ -261,16 +261,369 @@
 //         System.out.print("Input number of days: ");
 //         int totalDays = sc.nextInt();//25300
 
-//         // Conversion
+       
 //         int years = totalDays / 365;  //69
 //         int remainingDays = totalDays % 365;  
 
 //         int months = remainingDays / 30;
 //         int days = remainingDays % 30;
 
-//         // Output
+       
 //         System.out.println(years + " Year(s)");
 //         System.out.println(months + " Month(s)");
 //         System.out.println(days + " Day(s)");
 //     }
 // }
+
+
+
+
+
+
+ 
+// Q10. Write a java program that read 5 numbers and sum of all odd values between them
+// Test Data :
+// Input the first number: 11
+// Input the second number: 17
+// Input the third number: 13
+// Input the fourth number: 12
+// Input the fifth number: 5
+// Expected Output:
+// Sum of all odd values: 46
+
+
+
+ 
+// import java.util.Scanner;
+
+// class assigmentjava1 {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int sumOfOdds = 0;
+
+//         for (int i = 1; i <= 5; i++) {
+//             System.out.print("Input number " + i + ": ");
+//             int num = sc.nextInt();
+//             if (num % 2 != 0) {
+//                 sumOfOdds = sumOfOdds+num;
+//             }
+//         }
+
+//         System.out.println("Sum of all odd values: " + sumOfOdds);
+//     }
+// }
+
+
+
+
+
+
+
+
+
+
+
+ 
+// Q11. Write a Java program that reads an integer between 1 and 12 and print the month
+// of the year in English.
+// Test Data :
+// Input a number between 1 to 12 to get the month name: 8
+// Expected Output:
+// August
+
+
+
+// import java.util.Scanner;
+
+// class assigmentjava1 {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+        
+//         System.out.print("Input the first number: ");
+//         int num1 = sc.nextInt();
+
+//         System.out.print("Input the second number: ");
+//         int num2 = sc.nextInt();
+
+        
+//         if (num1 % num2 == 0 || num2 % num1 == 0) {
+//             System.out.println("One number is a multiple of the other.");
+//         } else {
+//             System.out.println("The numbers are not multiples of each other.");
+//         }
+//     }
+// }
+
+
+
+
+
+
+
+
+
+ 
+// Q12. Write a Java program that reads two integers and checks whether they are
+// multiplied or not.
+// Test Data :
+// Input the first number: 5
+// Input the second number: 15
+// Expected Output:
+
+
+
+// import java.util.Scanner;
+
+// class assigmentjava1 {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+
+        
+//         System.out.print("Input a number between 1 to 12 to get the month name: ");
+//         int monthNumber = sc.nextInt();
+
+//         switch (monthNumber) {
+//             case 1:
+//                 System.out.println("January");
+//                 break;
+//             case 2:
+//                 System.out.println("February");
+//                 break;
+//             case 3:
+//                 System.out.println("March");
+//                 break;
+//             case 4:
+//                 System.out.println("April");
+//                 break;
+//             case 5:
+//                 System.out.println("May");
+//                 break;
+//             case 6:
+//                 System.out.println("June");
+//                 break;
+//             case 7:
+//                 System.out.println("July");
+//                 break;
+//             case 8:
+//                 System.out.println("August");
+//                 break;
+//             case 9:
+//                 System.out.println("September");
+//                 break;
+//             case 10:
+//                 System.out.println("October");
+//                 break;
+//             case 11:
+//                 System.out.println("November");
+//                 break;
+//             case 12:
+//                 System.out.println("December");
+//                 break;
+//             default:
+//                 System.out.println("Invalid input! Please enter a number between 1 and 12.");
+//         }
+//     }
+// }
+
+
+
+
+
+ 
+// Q13. Write a java program that read 5 numbers and counts the number of positive
+// numbers and negative numbers. Test Data :
+// Input the first number: 5
+// Input the second number: -4
+// Input the third number: 10
+// Input the fourth number: 15
+// Input the fifth number: -1
+// Expected Output:
+// Number of positive numbers: 3
+// Number of negative numbers: 2
+
+
+
+//  import java.util.Scanner;
+
+//  class assigmentjava1 {
+//      public static void main(String[] args) {
+//            Scanner sc = new Scanner(System.in);
+
+// int positiveCount = 0;
+// int negativeCount = 0;
+
+
+// for (int i = 1; i <= 5; i++) {
+//     System.out.print("Input number " + i + ": ");
+//     int num = sc.nextInt();
+
+//     if (num > 0) {
+//         positiveCount++;
+//     } else if (num < 0) {
+//         negativeCount++;
+//     }
+// }
+
+
+// System.out.println("Number of positive numbers: " + positiveCount);
+// System.out.println("Number of negative numbers: " + negativeCount);
+
+//      } }
+
+
+
+
+
+
+
+ 
+// Q14. Write a java program that read 5 numbers and counts the number of positive
+// numbers and print the average of all positive values.
+// Test Data :
+// Input the first number: 5
+// Input the second number: 8
+// Input the third number: 10
+// Input the fourth number: -5
+// Input the fifth number: 25
+// Expected Output:
+// Number of positive numbers: 4
+// Average value of the said positive numbers: 12.00
+
+
+
+// import java.util.Scanner;
+
+// class assigmentjava1 {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+
+//         int positiveCount = 0;
+//         int positiveSum = 0;
+
+        
+//         for (int i = 1; i <= 5; i++) {
+//             System.out.print("Input number " + i + ": ");
+//             int num = sc.nextInt();
+
+//             if (num > 0) {
+//                 positiveCount++;
+//                 positiveSum += num;
+//             }
+//         }
+
+       
+//         System.out.println("Number of positive numbers: " + positiveCount);
+
+       
+//         if (positiveCount > 0) {
+//             double average = (double) positiveSum / positiveCount;
+//             System.out.printf("Average value of the said positive numbers: %.2f\n", average);
+//         } else {
+//             System.out.println("No positive numbers entered.");
+//         }
+//     }
+// }
+
+
+
+
+
+
+ 
+// Q15. 15. Write a java program that read 5 numbers and sum of all odd values
+// between them.
+// Test Data :
+// Input the first number: 5
+// Input the second number: 7
+// Input the third number: 9
+// Input the fourth number: 10
+// Input the fifth number: 13
+// Expected Output:
+// Sum of all odd values: 34
+
+
+
+// import java.util.Scanner;
+
+// class assigmentjava1 {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int sumOfOdds = 0;
+
+       
+//         for (int i = 1; i <= 5; i++) {
+//             System.out.print("Input number " + i + ": ");
+//             int num = sc.nextInt();
+//             if (num % 2 != 0) {
+//                 sumOfOdds += num;
+//             }
+//         }
+
+       
+//         System.out.println("Sum of all odd values: " + sumOfOdds);
+//     }
+// }
+
+
+
+
+
+
+ 
+// Q16.Write a java program that
+// converts Centigrade to Fahrenheit.
+
+
+
+// import java.util.Scanner;
+
+// class assigmentjava1 {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+
+//         System.out.print("Input temperature in Centigrade: ");
+//         double celsius = sc.nextDouble();
+
+       
+//         double fahrenheit = (celsius * 9 / 5) + 32;
+
+       
+//         System.out.printf("%.2f°C is %.2f°F%n", celsius, fahrenheit);
+//     }
+// }
+
+
+
+
+
+ 
+// Q17.Write a java program to integral quotient and remainder of a division
+
+// Input numerator : 2500
+// Input denominator : 235
+// quotient = 10, remainder = 150
+
+
+
+// import java.util.Scanner;
+
+// class assigmentjava1 {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+
+        
+//         System.out.print("Input numerator : ");
+//         int numerator = sc.nextInt();
+
+//         System.out.print("Input denominator : ");
+//         int denominator = sc.nextInt();
+
+        
+//         int quotient = numerator / denominator;
+//         int remainder = numerator % denominator;
+
+//         System.out.println("quotient = " + quotient + ", remainder = " + remainder);
+//     }
+// }
+
+
