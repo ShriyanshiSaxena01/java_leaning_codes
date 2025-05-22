@@ -1,3 +1,4 @@
+package java;
 // class array {
     
 //     public static void main(String[] args) {
@@ -108,32 +109,123 @@
 
 
 
+// import java.util.Scanner;
+
+// class array {
+    
+//     public static void main(String[] args) {
+        
+//         float arr=new nextf
+//         Scanner sk=new Scanner(System.in);
+
+// char ny ='b';
+//        int i;
+
+//        for (i=0; i<arr.length;i++)
+//        {
+//         System.out.println("Enter a index of  "+i+ " : ");
+//         arr[i]=sk.nextInt();
+//        }
+
+//        for (i=0; i<arr.length;i++)
+//        {
+//         System.out.println("\t"+arr[i]);
+//         System.out.println("\t"+arr[i]);
+
+//         float 
+
+//        }
+       
+//     }
+// }
+
+
+
+
+
+
+
+
+
+
+// import java.util.Scanner;
+
+// class array {
+    
+//     public static void main(String[] args) {
+        
+
+
+
+        // declaration + memory allocation
+//   int [] marks= new int[5];
+//   marks[0]=100;
+//   marks[1]=50;
+//   marks[2]=25;
+//   marks[3]=80;
+//   marks[4]=70;
+       
+//  System.out.println( marks[3]);
+
+// // through an error
+//  System.out.println( marks[5]);
+
+
+
+
+        // declaration and memory allocation
+
+    //     int[] marks;
+    //     marks= new int[5];               
+    //            marks[0]=100;
+    //            marks[1]=50;
+    //            marks[2]=25;
+    //            marks[3]=80;
+    //            marks[4]=70;
+       
+    //    System.out.println( marks[3]);
+
+
+
+
+
+
+
+        // declaration + memory allocation + initiolization
+
+    //     int[] marks={100,50,28,79,62};             
+              
+    //    System.out.println( marks[3]);
+
+
+
+
+
+
+
+//     }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
 import java.util.Scanner;
 
 class array {
     
     public static void main(String[] args) {
         
-        float arr=new nextf
-        Scanner sk=new Scanner(System.in);
+     
+   
 
-char ny ='b';
-       int i;
-
-       for (i=0; i<arr.length;i++)
-       {
-        System.out.println("Enter a index of  "+i+ " : ");
-        arr[i]=sk.nextInt();
-       }
-
-       for (i=0; i<arr.length;i++)
-       {
-        System.out.println("\t"+arr[i]);
-        System.out.println("\t"+arr[i]);
-
-        float 
-
-       }
        
     }
 }

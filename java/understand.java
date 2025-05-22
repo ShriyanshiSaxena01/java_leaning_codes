@@ -1,3 +1,4 @@
+package java;
 import java.util.Scanner;
 public class understand {
     public static void main(String[] args) {

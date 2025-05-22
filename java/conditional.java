@@ -240,39 +240,39 @@
 
 
 
-import java.util.Scanner;
-class conditional {
+// import java.util.Scanner;
+// class conditional {
     
 
-    public static void main(String[] args) {
-        Scanner k=new Scanner(System.in);
-        System.out.println("Enter number 1 :");
-        int a=k.nextInt();
-        System.out.println("Enter number 2 :");
-        int b=k.nextInt();
-        System.out.println("Enter + for addition ,- for substraction , / divivsion ,* multiplication :");
-        char ans = k.next().charAt(0);
+//     public static void main(String[] args) {
+//         Scanner k=new Scanner(System.in);
+//         System.out.println("Enter number 1 :");
+//         int a=k.nextInt();
+//         System.out.println("Enter number 2 :");
+//         int b=k.nextInt();
+//         System.out.println("Enter + for addition ,- for substraction , / divivsion ,* multiplication :");
+//         char ans = k.next().charAt(0);
    
-        switch (ans) {
-            case '+':
+//         switch (ans) {
+//             case '+':
                 
-            System.out.println("ans is : " + (a + b));
-                break;
-            case '-':
-            System.out.println("ans is : " + (a - b));
-                break;
-            case '/':
-                System.out.println("ans is : " + (a / b));
-                break;
-            case '*':
-                System.out.println("ans is : " + (a * b));
-                break;
+//             System.out.println("ans is : " + (a + b));
+//                 break;
+//             case '-':
+//             System.out.println("ans is : " + (a - b));
+//                 break;
+//             case '/':
+//                 System.out.println("ans is : " + (a / b));
+//                 break;
+//             case '*':
+//                 System.out.println("ans is : " + (a * b));
+//                 break;
            
-            default:
-            System.out.println("wrong input");
-                break;
-        }
+//             default:
+//             System.out.println("wrong input");
+//                 break;
+//         }
        
         
-    }
-}
+//     }
+// }

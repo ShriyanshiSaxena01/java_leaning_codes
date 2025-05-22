@@ -1,3 +1,4 @@
+package java;
 // class javaquestions{
 
 //      public static void main(String[] args) {

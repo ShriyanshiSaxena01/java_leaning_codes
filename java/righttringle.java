@@ -1,18 +1,17 @@
+package java;
 import java.util.Scanner;
-public class dimond 
-{
+public class righttringle {
     
-    public static void main(String[] args) 
-    {
+    public static void main(String[] args) {
         
         Scanner inp=new Scanner(System.in);
-        int a=0;
-        for (int r=1;r<=9;++r)
+        
+        for (int r=1;r<=5;r++)
         {
-            a=(r<=5)?++a:--a;
-            for(int c=1;c<=9;++c)
+            
+            for(int c=1;c<=5;c++)
             {
-                if(c>=6-a && c<=4+a)
+                if(c>=6-r)
                 {
                     System.out.print("*");
                    
