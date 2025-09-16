@@ -1,0 +1,17 @@
+Recursion ==========================================
+
+public class Recursion {
+
+    public static void printnum(int n) { // now it's static
+        if (n == 0) {
+            return;
+        }
+        System.out.println(n);
+        printnum(n - 1); // recursive call
+    }
+
+    public static void main(String[] args) {
+        int n = 5;
+        printnum(n); // no object needed
+    }
+}

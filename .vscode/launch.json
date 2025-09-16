@@ -1,0 +1,301 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "oopfoure",
+            "request": "launch",
+            "mainClass": "oopfoure",
+            "projectName": "java_leaning_codes_434887a1"
+        },
+        {
+            "type": "java",
+            "name": "oopfour",
+            "request": "launch",
+            "mainClass": "oopfour",
+            "projectName": "java_leaning_codes_434887a1"
+        },
+        {
+            "type": "java",
+            "name": "oopthre",
+            "request": "launch",
+            "mainClass": "oopthre",
+            "projectName": "java_leaning_codes_434887a1"
+        },
+        {
+            "type": "java",
+            "name": "oopthree",
+            "request": "launch",
+            "mainClass": "oopthree",
+            "projectName": "java_leaning_codes_434887a1"
+        },
+        {
+            "type": "java",
+            "name": "ooptwo",
+            "request": "launch",
+            "mainClass": "ooptwo",
+            "projectName": "java_leaning_codes_434887a1"
+        },
+        {
+            "type": "java",
+            "name": "one",
+            "request": "launch",
+            "mainClass": "one",
+            "projectName": "java_leaning_codes_434887a1"
+        },
+        {
+            "type": "java",
+            "name": "oops2",
+            "request": "launch",
+            "mainClass": "oops2",
+            "projectName": "java_leaning_codes_434887a1"
+        },
+        {
+            "type": "java",
+            "name": "oopsconstructor2",
+            "request": "launch",
+            "mainClass": "oopsconstructor2",
+            "projectName": "java_leaning_codes_434887a1"
+        },
+        {
+            "type": "java",
+            "name": "oops2constructor",
+            "request": "launch",
+            "mainClass": "oops2constructor",
+            "projectName": "java_leaning_codes_434887a1"
+        },
+        {
+            "type": "java",
+            "name": "oops1",
+            "request": "launch",
+            "mainClass": "oops1",
+            "projectName": "java_leaning_codes_434887a1"
+        },
+        {
+            "type": "java",
+            "name": "Recursion",
+            "request": "launch",
+            "mainClass": "Recursion",
+            "projectName": "java_leaning_codes_434887a1"
+        },
+        {
+            "type": "java",
+            "name": "recursion",
+            "request": "launch",
+            "mainClass": "recursion",
+            "projectName": "java_leaning_codes_434887a1"
+        },
+        {
+            "type": "java",
+            "name": "DoWhileExample",
+            "request": "launch",
+            "mainClass": "DoWhileExample",
+            "projectName": "java_leaning_codes_434887a1"
+        },
+        {
+            "type": "java",
+            "name": "WhileLoopExample",
+            "request": "launch",
+            "mainClass": "WhileLoopExample",
+            "projectName": "java_leaning_codes_434887a1"
+        },
+        {
+            "type": "java",
+            "name": "ForLoopExample",
+            "request": "launch",
+            "mainClass": "ForLoopExample",
+            "projectName": "java_leaning_codes_434887a1"
+        },
+        {
+            "type": "java",
+            "name": "conditional",
+            "request": "launch",
+            "mainClass": "conditional",
+            "projectName": "java_leaning_codes_434887a1"
+        },
+        {
+            "type": "java",
+            "name": "conditioonal",
+            "request": "launch",
+            "mainClass": "apnacollage.conditioonal",
+            "projectName": "java_leaning_codes_434887a1"
+        },
+        {
+            "type": "java",
+            "name": "input1",
+            "request": "launch",
+            "mainClass": "apnacollage.input1",
+            "projectName": "java_leaning_codes_434887a1"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "java_leaning_codes_434887a1"
+        },
+        {
+            "type": "java",
+            "name": "controlflowass",
+            "request": "launch",
+            "mainClass": "controlflowass",
+            "projectName": "java_leaning_codes_434887a1"
+        },
+        {
+            "type": "java",
+            "name": "array10",
+            "request": "launch",
+            "mainClass": "array10",
+            "projectName": "java_leaning_codes_434887a1"
+        },
+        {
+            "type": "java",
+            "name": "array1",
+            "request": "launch",
+            "mainClass": "array1",
+            "projectName": "java_leaning_codes_434887a1"
+        },
+        {
+            "type": "java",
+            "name": "rectangle",
+            "request": "launch",
+            "mainClass": "rectangle",
+            "projectName": "java_leaning_codes_434887a1"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "PRIMENO",
+            "request": "launch",
+            "mainClass": "PRIMENO",
+            "projectName": "java_leaning_codes_434887a1"
+        },
+        {
+            "type": "java",
+            "name": "addition",
+            "request": "launch",
+            "mainClass": "addition",
+            "projectName": "java_leaning_codes_434887a1"
+        },
+        {
+            "type": "java",
+            "name": "addofstring",
+            "request": "launch",
+            "mainClass": "addofstring",
+            "projectName": "java_leaning_codes_434887a1"
+        },
+        {
+            "type": "java",
+            "name": "apserirs",
+            "request": "launch",
+            "mainClass": "apserirs",
+            "projectName": "java_leaning_codes_434887a1"
+        },
+        {
+            "type": "java",
+            "name": "array",
+            "request": "launch",
+            "mainClass": "array",
+            "projectName": "java_leaning_codes_434887a1"
+        },
+        {
+            "type": "java",
+            "name": "dimond",
+            "request": "launch",
+            "mainClass": "dimond",
+            "projectName": "java_leaning_codes_434887a1"
+        },
+        {
+            "type": "java",
+            "name": "fun",
+            "request": "launch",
+            "mainClass": "fun",
+            "projectName": "java_leaning_codes_434887a1"
+        },
+        {
+            "type": "java",
+            "name": "input5",
+            "request": "launch",
+            "mainClass": "input5",
+            "projectName": "java_leaning_codes_434887a1"
+        },
+        {
+            "type": "java",
+            "name": "lcm",
+            "request": "launch",
+            "mainClass": "lcm",
+            "projectName": "java_leaning_codes_434887a1"
+        },
+        {
+            "type": "java",
+            "name": "nthterm",
+            "request": "launch",
+            "mainClass": "nthterm",
+            "projectName": "java_leaning_codes_434887a1"
+        },
+        {
+            "type": "java",
+            "name": "oi",
+            "request": "launch",
+            "mainClass": "oi",
+            "projectName": "java_leaning_codes_434887a1"
+        },
+        {
+            "type": "java",
+            "name": "pattern9",
+            "request": "launch",
+            "mainClass": "pattern9",
+            "projectName": "java_leaning_codes_434887a1"
+        },
+        {
+            "type": "java",
+            "name": "addition(1)",
+            "request": "launch",
+            "mainClass": "question.addition",
+            "projectName": "java_leaning_codes_434887a1"
+        },
+        {
+            "type": "java",
+            "name": "hello",
+            "request": "launch",
+            "mainClass": "question.hello",
+            "projectName": "java_leaning_codes_434887a1"
+        },
+        {
+            "type": "java",
+            "name": "righttringle",
+            "request": "launch",
+            "mainClass": "righttringle",
+            "projectName": "java_leaning_codes_434887a1"
+        },
+        {
+            "type": "java",
+            "name": "string8",
+            "request": "launch",
+            "mainClass": "string8",
+            "projectName": "java_leaning_codes_434887a1"
+        },
+        {
+            "type": "java",
+            "name": "understand",
+            "request": "launch",
+            "mainClass": "understand",
+            "projectName": "java_leaning_codes_434887a1"
+        },
+        {
+            "type": "java",
+            "name": "variable_1",
+            "request": "launch",
+            "mainClass": "variable_1",
+            "projectName": "java_leaning_codes_434887a1"
+        }
+    ]
+}
